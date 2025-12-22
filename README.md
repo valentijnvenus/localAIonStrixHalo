@@ -10,10 +10,12 @@ This is a comprehensive guidebook for fully utilizing the local AI environment o
 
 ### ✅ Fully optimized for AMD Ryzen AI Max+ 395
 
-- Strategic use of 128GB of large memory
+- Strategic use of 128GB of unified, large memory
 - Optimal Settings for RDNA 3.5 GPU (Radeon 8060S)
 - Complete guide to building the ROCm 6.2 environment
 - Four performance modes (Performance/Balance/Quiet/Rack)
+
+  <img width="1024" height="559" alt="unified-mem" src="https://github.com/user-attachments/assets/a79848d0-1f92-4070-81c8-c54e74a5c813" />
 
 ### ✅ Practical and comprehensive
 
