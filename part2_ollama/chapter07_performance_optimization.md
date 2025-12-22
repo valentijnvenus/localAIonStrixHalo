@@ -1,5 +1,7 @@
 # Chapter 7: Performance optimization for MS-S1 Max
 
+On Linux, you want to run 6.17.x kernel as it introduces some important optimizations. ROCm will give you much better prefill than Vulkan, and just a slightly lower tg. Use llama.cpp - either compile from the source, or get ROCm build from Lemonade SDK: https://github.com/lemonade-sdk/llamacpp-rocm
+
 ## 7.1 Maximum utilization of hardware resources
 
 ### 7.1.1 Strategic use of 128GB memory
@@ -9,14 +11,14 @@ Make full use of MS-S1 Max's 128GB large capacity memory.
 ```bash
 # System-wide memory allocation strategy
 ┌─────────────────────────────────────────┐
-│ Total memory: 128GB │
+│ Total memory: 128GB                     │
 ├─────────────────────────────────────────┤
-│ OS + System: 8GB │
-│ Ollama service: 2GB │
-│ Model weight: 40-80GB (variable) │
-│ Context cache: 10-30GB │
-│ Working buffer: 10-20GB │
-│ Spare: 10-20GB │
+│ OS + System: 8GB                        │
+│ Ollama service: 2GB                     │
+│ Model weight: 40-80GB (variable)        │
+│ Context cache: 10-30GB                  │
+│ Working buffer: 10-20GB                 │
+│ Spare: 10-20GB                          │
 └─────────────────────────────────────────┘
 ```
 
