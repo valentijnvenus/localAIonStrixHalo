@@ -1,8 +1,8 @@
-# Using AI locally, starting with LMStudio [Complete Edition]
+# Using AI locally on Strix Halo hardware
 
 ## 📚 5-Part Complete Guide Series
 
-This is a comprehensive guidebook for fully utilizing the local AI environment on the Minisforum MS-S1 Max equipped with the AMD Ryzen AI Max+ 395 (128GB memory). Comprised of 5 parts and 45 chapters, this is the most comprehensive local AI guide written for using AI locally on Strix Halo hardware (and later hardware revisions).
+This is a comprehensive guidebook for fully utilizing the local AI environment on the Minisforum MS-S1 Max equipped with the AMD Ryzen AI Max+ 395 (128GB memory). Comprised of 5 parts and 45 chapters, , starting with LMStudio [Complete Edition], this is the most comprehensive local AI guide written for using AI locally on Strix Halo hardware (and later hardware revisions).
 
 ---
 
