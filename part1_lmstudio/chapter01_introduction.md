@@ -193,7 +193,15 @@ But with the Ryzen AI Max+ 395 128GB memory configuration:
 
 This book consists of the following nine chapters:
 
-**Chapter 1 (this chapter)** : Overview of LM Studio and Local AI **Chapter 2** : Hardware Specifications and System Requirements **Chapter 3** : Installing and Initializing LM Studio **Chapter 4** : Complete Guide to AMD GPU Settings **Chapter 5** : Model Download and Management **Chapter 6** : Complete Explanation of Inference Settings **Chapter 7** : Optimization Settings for MS-S1 Max **Chapter 8** : Practical Use **Chapter 9** : Advanced Features and Customization
+**Chapter 1 (this chapter)** : Overview of LM Studio and Local AI
+**Chapter 2** : Hardware Specifications and System Requirements
+**Chapter 3** : Installing and Initializing LM Studio
+**Chapter 4** : Complete Guide to AMD GPU Settings
+**Chapter 5** : Model Download and Management
+**Chapter 6** : Complete Explanation of Inference Settings
+**Chapter 7** : Optimization Settings for MS-S1 Max
+**Chapter 8** : Practical Use
+**Chapter 9** : Advanced Features and Customization
 
 ### How to proceed with your studies
 
