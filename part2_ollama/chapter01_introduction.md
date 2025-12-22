@@ -330,7 +330,15 @@ ollama run my-assistant "Tell me about Ryzen AI Max+ 395"
 
 This book consists of the following nine chapters:
 
-**Chapter 1 (this chapter)** : Overview of Ollama and the advantages of MS-S1 Max **Chapter 2** : Installation and setup **Chapter 3** : ROCm settings and AMD GPU optimization **Chapter 4** : Basic commands and usage **Chapter 5** : Model management and customization **Chapter 6** : API utilization and integration **Chapter 7** : Performance optimization for MS-S1 Max **Chapter 8** : Multi-model operation and concurrent execution **Chapter 9** : Advanced techniques and troubleshooting
+**Chapter 1 (this chapter)** : Overview of Ollama and the advantages of MS-S1 Max 
+**Chapter 2** : Installation and setup 
+**Chapter 3** : ROCm settings and AMD GPU optimization 
+**Chapter 4** : Basic commands and usage 
+**Chapter 5** : Model management and customization 
+**Chapter 6** : API utilization and integration 
+**Chapter 7** : Performance optimization for MS-S1 Max 
+**Chapter 8** : Multi-model operation and concurrent execution 
+**Chapter 9** : Advanced techniques and troubleshooting
 
 ### How to proceed with your studies
 
