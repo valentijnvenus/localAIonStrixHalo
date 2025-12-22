@@ -1,0 +1,62 @@
+=== Completed Japanese book series: Complete guide to local AI ===
+
+Target hardware: AMD Ryzen AI Max+ 395 (128GB) Minisforum MS-S1 Max
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[Part 1: LM Studio Complete Guide] ✅Completed
+- Chapter 01-09 (9 chapters in total)
+- From the basics to advanced usage of LM Studio
+- Optimization settings for MS-S1 Max
+
+[Part 2: Ollama Complete Guide] ✅Complete
+- Chapter 01-09 (9 chapters in total)
+- CLI-centered LLM execution environment
+- API integration, multi-model operation
+- ROCm optimization, performance tuning
+
+[Part 3: Text Generation WebUI Complete Guide] ✅Complete
+- Chapter 01-09 (9 chapters in total)
+- Web-based high-performance UI
+- ExLlamaV2 optimization
+- Characters, extensions
+
+[Part 4: ComfyUI and Stable Diffusion Complete Guide] ✅Completed
+- Chapter 01-09 (9 chapters in total)
+- Image generation AI utilization
+  - Stable Diffusion XL
+  - ControlNet、LoRA
+
+[Part 5: Local AI Application Development] ✅Completed
+- Chapter 01-09 (9 chapters in total)
+- RAG system construction
+- API development
+- Deployment, operation
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Total: 45 chapters (9 chapters x 5 copies)
+
+Features of each chapter:
+✓ Written in Japanese
+✓ Optimized exclusively for MS-S1 Max
+✓ Practical code examples
+✓ ROCm configuration guide
+✓ Performance benchmark
+✓ Troubleshooting
+
+Technology stack:
+- AMD Ryzen AI Max+ 395 (16C/32T)
+- 128GB LPDDR5X-8000
+- AMD Radeon 8060S (RDNA 3.5)
+- ROCm 6.1+
+- Ubuntu 22.04/24.04 LTS
+
+Cover contents:
+✓ LLM inference (LM Studio, Ollama, Text-gen-webui)
+✓ Image generation (ComfyUI, Stable Diffusion)
+✓ Application development (API, RAG, Deployment)
+✓ Performance optimization
+✓ Practical use cases
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
