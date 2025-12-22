@@ -331,7 +331,15 @@ Popular Model Hubs:
 
 ### Part 3: Text Generation WebUI Complete Guide
 
-**Chapter 1 (this chapter)** : Overview of the Text Generation WebUI **Chapter 2** : Installation and environment setup **Chapter 3** : ROCm configuration and ExLlamaV2 optimization **Chapter 4** : Basic operations and interface **Chapter 5** : Model loader and formatting **Chapter 6** : Advanced parameter settings **Chapter 7** : Character creation and roleplay **Chapter 8** : Using extension functions **Chapter 9** : Practical techniques and troubleshooting
+**Chapter 1 (this chapter)** : Overview of the Text Generation WebUI 
+**Chapter 2** : Installation and environment setup 
+**Chapter 3** : ROCm configuration and ExLlamaV2 optimization 
+**Chapter 4** : Basic operations and interface 
+**Chapter 5** : Model loader and formatting 
+**Chapter 6** : Advanced parameter settings 
+**Chapter 7** : Character creation and roleplay 
+**Chapter 8** : Using extension functions 
+**Chapter 9** : Practical techniques and troubleshooting
 
 ### How to proceed with your studies
 
