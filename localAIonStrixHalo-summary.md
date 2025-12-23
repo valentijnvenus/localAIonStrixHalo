@@ -124,6 +124,7 @@ Sources:
 - https://medium.com/@jmdevita/z-image-turbo-on-amd-ryzen-ai-max-395-local-ai-image-generation-with-vulkan-framework-desktop-b577b798b6ca
 - https://github.com/lemonade-sdk/lemonade/issues/5
 - https://www.reddit.com/r/LocalLLaMA/comments/1pnjdx9/ryzen_395_strix_halo_massive_performance/
+- 
 
 Add a new Chapter on finetuning LLMs on Strix Halo using the following sources:
 
@@ -131,6 +132,7 @@ Add a new Chapter on finetuning LLMs on Strix Halo using the following sources:
 - Finetuning Toolbox (Jupyter preconfigured): https://github.com/kyuz0/amd-strix-halo-llm-finetuning
 - Framework Desktop (Strix Halo): https://frame.work/
 - Strix Halo Homelab guide and Discord (by deseven): https://strixhalo-homelab.d7.wtf/
+- 
 
 Add a new Chapter on running CachyOS on Strix Halo hardware:
 
@@ -157,6 +159,7 @@ Add a "Benchmarks" chapter where we: 
 
 ollama run https://huggingface.co/bartowski/{MODEL} --verbose "what is a gpu?"
 
+```
 gemma2:27B
 total duration:       16.071996947s
 load duration:        252.532482ms
@@ -207,5 +210,6 @@ prompt eval rate:     498.47 tokens/s
 eval count:           552 token(s)
 eval duration:        10.805733034s
 eval rate:            51.08 tokens/s
+```
 
 Finally, also discuss benchmarking "Local AI Image Generation" (see e.g. https://medium.com/@jmdevita/z-image-turbo-on-amd-ryzen-ai-max-395-local-ai-image-generation-with-vulkan-framework-desktop-b577b798b6ca). Ensure to include a link to the source of each of the benchmarking results you use.
