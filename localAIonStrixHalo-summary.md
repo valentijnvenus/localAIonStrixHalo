@@ -111,36 +111,45 @@ Prompt:
 Use as a basis the following git repo: https://github.com/valentijnvenus/localAIonStrixHalo But in addition, also search the Internet for other relevant sources and use all of the following sources:
 
 Sources:
-https://strixhalo.wiki/AI/AI_Capabilities_Overview
-https://github.com/geerlingguy/beowulf-ai-cluster/issues/5
-https://www.youtube.com/@donatocapitella/videos
-https://www.databasemart.com/blog/ollama-gpu-benchmark-v100
-https://www.reddit.com/r/LocalLLaMA/comments/1odk11r/strix_halo_vs_dgx_spark_initial_impressions_long/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1
-https://www.reddit.com/r/LocalLLaMA/comments/1owjidz/minisforum_s1max_ai_max_395_where_do_start/
-https://old.reddit.com/r/LocalLLaMA/comments/1m6b151/updated_strix_halo_ryzen_ai_max_395_llm_benchmark/
-https://forum.level1techs.com/t/minisforum-ms-s1-max-comfy-ui-guide/237929/19
-https://github.com/AUTOMATIC1111/stable-diffusion-webui
-https://medium.com/@jmdevita/z-image-turbo-on-amd-ryzen-ai-max-395-local-ai-image-generation-with-vulkan-framework-desktop-b577b798b6ca
-https://github.com/lemonade-sdk/lemonade/issues/5
-https://www.reddit.com/r/LocalLLaMA/comments/1pnjdx9/ryzen_395_strix_halo_massive_performance/
+
+- https://strixhalo.wiki/AI/AI_Capabilities_Overview
+- https://github.com/geerlingguy/beowulf-ai-cluster/issues/5
+- https://www.youtube.com/@donatocapitella/videos
+- https://www.databasemart.com/blog/ollama-gpu-benchmark-v100
+- https://www.reddit.com/r/LocalLLaMA/comments/1odk11r/strix_halo_vs_dgx_spark_initial_impressions_long/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1
+- https://www.reddit.com/r/LocalLLaMA/comments/1owjidz/minisforum_s1max_ai_max_395_where_do_start/
+- https://old.reddit.com/r/LocalLLaMA/comments/1m6b151/updated_strix_halo_ryzen_ai_max_395_llm_benchmark/
+- https://forum.level1techs.com/t/minisforum-ms-s1-max-comfy-ui-guide/237929/19
+- https://github.com/AUTOMATIC1111/stable-diffusion-webui
+- https://medium.com/@jmdevita/z-image-turbo-on-amd-ryzen-ai-max-395-local-ai-image-generation-with-vulkan-framework-desktop-b577b798b6ca
+- https://github.com/lemonade-sdk/lemonade/issues/5
+- https://www.reddit.com/r/LocalLLaMA/comments/1pnjdx9/ryzen_395_strix_halo_massive_performance/
+- 
 
 Add a new Chapter on finetuning LLMs on Strix Halo using the following sources:
-YouTube video at https://www.youtube.com/watch?v=nxugSRDg_jg
-Finetuning Toolbox (Jupyter preconfigured): https://github.com/kyuz0/amd-strix-halo-llm-finetuning
-Framework Desktop (Strix Halo): https://frame.work/
-Strix Halo Homelab guide and Discord (by deseven): https://strixhalo-homelab.d7.wtf/
+
+- YouTube video at https://www.youtube.com/watch?v=nxugSRDg_jg
+- Finetuning Toolbox (Jupyter preconfigured): https://github.com/kyuz0/amd-strix-halo-llm-finetuning
+- Framework Desktop (Strix Halo): https://frame.work/
+- Strix Halo Homelab guide and Discord (by deseven): https://strixhalo-homelab.d7.wtf/
+- 
 
 Add a new Chapter on running CachyOS on Strix Halo hardware:
-https://brian.th3rogers.com/posts/strixhalo-cachyos/
+
+- https://brian.th3rogers.com/posts/strixhalo-cachyos/
 
 Add a Chapter on how to accelerate compute on Zen 5 utilising its AVX-512 Implementation, for which the following sources should be used:
-https://danieldk.eu/Intel-MKL-on-AMD-Zen
-https://www.reddit.com/r/hardware/comments/1ethe1e/quantifying_the_avx512_performance_impact_with/ https://www.numberworld.org/blogs/2024_8_7_zen5_avx512_teardown/
-https://www.phoronix.com/review/amd-zen5-avx-512-9950x/6
-https://www.ixpantia.com/en/blog/code-making-numpys-standard-deviation-5x-faster
-(ignore resource suggesting the use of MKL_DEBUG_CPU_TYPE=5 debug flag as this is outdated. Instead, use mkl_serv_intel_cpu_true function as described in https://danieldk.eu/Intel-MKL-on-AMD-Zen):  
 
-Add a Chapter on how to utilise the NPU for LLM-inference, which runs independent from the CPU/GPU (see https://github.com/amd/gaia). A recent beta version for linux may bypass Window’s limitation that the NPU can only access half the system RAM, which in our case would be 128/2=64Gb (see https://github.com/FastFlowLM/FastFlowLM/issues/103#issuecomment-3255330162 and https://ryzenai.docs.amd.com/en/latest/linux.html).
+- https://danieldk.eu/Intel-MKL-on-AMD-Zen
+- https://www.reddit.com/r/hardware/comments/1ethe1e/quantifying_the_avx512_performance_impact_with/ https://www.numberworld.org/blogs/2024_8_7_zen5_avx512_teardown/
+- https://www.phoronix.com/review/amd-zen5-avx-512-9950x/6
+- https://www.ixpantia.com/en/blog/code-making-numpys-standard-deviation-5x-faster
+- (ignore resource suggesting the use of MKL_DEBUG_CPU_TYPE=5 debug flag as this is outdated. Instead, use mkl_serv_intel_cpu_true function as described in https://danieldk.eu/Intel-MKL-on-AMD-Zen) 
+
+Add a Chapter on how to utilise the NPU for LLM-inference, which runs independent from the CPU/GPU (see https://github.com/amd/gaia). A recent beta version for linux may bypass Window’s limitation that the NPU can only access half the system RAM, which in our case would be 128/2=64Gb, for which the following sources should be used:
+
+- https://github.com/FastFlowLM/FastFlowLM/issues/103#issuecomment-3255330162 
+- https://ryzenai.docs.amd.com/en/latest/linux.html
 
 Add a "Benchmarks" chapter where we: 
 1. interpolate any benchmarks to be more comparable
@@ -148,7 +157,7 @@ Add a "Benchmarks" chapter where we: 
 3. include NVIDIA DGX Spark with GB10
 4. and use the V100 32Gb Tesla SMX accelerator as the reference for comparisons, e.g. V100 32Gb Tesla SMX offers extra VRAM which results in the following benchmarking results for different LLM models: 
 
-ollama run https://huggingface.co/bartowski/{MODEL} --verbose "what is gpu"
+ollama run https://huggingface.co/bartowski/{MODEL} --verbose "what is a gpu?"
 
 gemma2:27B
 total duration:       16.071996947s
