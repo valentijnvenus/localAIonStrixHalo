@@ -124,7 +124,6 @@ Sources:
 - https://medium.com/@jmdevita/z-image-turbo-on-amd-ryzen-ai-max-395-local-ai-image-generation-with-vulkan-framework-desktop-b577b798b6ca
 - https://github.com/lemonade-sdk/lemonade/issues/5
 - https://www.reddit.com/r/LocalLLaMA/comments/1pnjdx9/ryzen_395_strix_halo_massive_performance/
-- 
 
 Add a new Chapter on finetuning LLMs on Strix Halo using the following sources:
 
@@ -132,7 +131,6 @@ Add a new Chapter on finetuning LLMs on Strix Halo using the following sources:
 - Finetuning Toolbox (Jupyter preconfigured): https://github.com/kyuz0/amd-strix-halo-llm-finetuning
 - Framework Desktop (Strix Halo): https://frame.work/
 - Strix Halo Homelab guide and Discord (by deseven): https://strixhalo-homelab.d7.wtf/
-- 
 
 Add a new Chapter on running CachyOS on Strix Halo hardware:
 
