@@ -21,7 +21,7 @@ For the best out-of-the-box experience on Strix Halo, **CachyOS** is highly reco
 
 ---
 
-## 3. Accelerating Compute on Zen 5 (AVX-512)
+## 3. Accelerating Compute with Zen 5 (AVX-512)
 
 The Ryzen AI Max 395 uses **Zen 5** cores, which feature a full 512-bit data path (unlike Zen 4's double-pumped 256-bit). However, Intel MKL (Math Kernel Library)—used by NumPy, PyTorch, and TensorFlow—often defaults to slow, legacy code paths when it detects a non-Intel CPU.
 
@@ -57,7 +57,7 @@ The **XDNA 2 NPU** (50 TOPS) runs independently of the CPU and GPU. While Window
 
 ---
 
-## 5. Fine-Tuning LLMs on Strix Halo (GOU)
+## 5. Fine-Tuning LLMs on Strix Halo (GPU)
 
 Strix Halo is uniquely positioned for home-lab fine-tuning due to its massive 128GB VRAM pool, which allows training significantly larger models than consumer dGPUs (like the RTX 4090 24GB).
 
