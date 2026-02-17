@@ -57,7 +57,7 @@ The **XDNA 2 NPU** (50 TOPS) runs independently of the CPU and GPU. While Window
 
 ---
 
-## 5. Fine-Tuning LLMs on Strix Halo
+## 5. Fine-Tuning LLMs on Strix Halo (GOU)
 
 Strix Halo is uniquely positioned for home-lab fine-tuning due to its massive 128GB VRAM pool, which allows training significantly larger models than consumer dGPUs (like the RTX 4090 24GB).
 
